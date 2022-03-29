@@ -1,0 +1,144 @@
+
+
+String  - tipo referencia
+
+String é uma classse
+
+++numero - incremento antes do atributo é prioridade
+numero++ - incremento depois o atributo é prioridade
+
+
+Colocar JoptionPane e em seguida
+
+Integer.parseint - ele converte a string para Int
+
+Tipo primitivo nao pode receber "null" - nulo - Exemplo: "Integer j = null;"
+
+integer - é um classe que representa inteiro.
+
+Double.parseDouble - ele converte a string para double
+
+
+If/else - se for usar apenas uma linha de codigo nao precisa usar as chaves ({})
+
+retur - todo return vai sair do metodo em que estamo, no caso o metodo main
+
+Math.ramdom (biblioteca do java) - ele gera numeros aleatorios
+
+Math é um metodo estatico
+
+
+while - vamos utiliozar o while quando nao sabemos quando vai parar, nao temos certeza do numero que vamos colocar
+	- "enquanto acontece algo, faça algo"
+
+do while - "do - faça" "while - enquanto"
+
+
+
+
+
+
+ORIENTAÇÃO A OBJETOS
+
+
+CTRL + SHIFT + O = esse atalho importa todos os endereços
+
+Todas as classes temos que criar no Singular! "produtos" - NAO, "poduto" - SIM
+
+ENUM - enumeração - São tipos de campos que consistem em um conjunto fixo de constantes (static final), - **ele nao é um classe, é um tipo "enum"
+
+Metodo - executa coisas
+variaveis - guarda coisas
+
+CTRL + ALT + BAIXO - Copia a linha em que esta selcionada
+
+
+This - ele referencia a propria classe (ele representa a propria classe) - ele tem acesso aos atributos e acesso aos metodos
+This - ele pode ser o nosso metodo constrtutor
+This - ele executa os constrtutores encima das sobrecargas
+
+Return - sempre que um metodo nao for "void" temos que ter um return
+
+
+
+
+
+Exceções - Exception - a leitura é sempre da ultima linha
+
+throw - "produzindo um erro" - estamos lançando uma nova exceção no nosso objeto, ele trava o erro direto no metodo
+
+
+sOBRECARGA DE METODOS (Overloading) - CRIAR METODOS COM O MESMO NOME, COM PARAMETROS DIFERENTES!!
+
+
+	metodo que faz a msma coisa de forma diferente
+
+OBJETIVO DA SOBRE CARGA - 
+
+Static - nao depende do objeto, nao ocupa espaço na memoria, independente da classe, Static serve para referenciar todos aqueles atributos/métodos de classe, ou seja, que podem ser acessados diretamente da definição da classe, sem precisar instanciar nenhum objeto.
+
+Static - a variavel static que eu criar ela vai ser valida para todos os objetos, eu nao preciso estanciar, s eeu trocara variavel de um atributo statico ele vai mudar para todos os objetos
+
+Static e Final juntos - a gente tem que escrever o "PAIS_ORIGEM" em maiusculo
+
+Variavel Constante = Static com Final juntos
+
+
+CONSTRUTORES
+
+VALORES DEFAULT PARA ATRIBUTOS: 
+
+numericos: 0
+boolean: false
+String: null
+Char: \0
+referencia (classes): null
+
+Regra dos Construtores: 
+
+Toda a classe tem o seu Construtor (nao existe classe sem o seu construtor)
+o Construtor é um Metodo com o mesmo nome da classe
+
+se nenhum construtor for encontrado na classe, o compilador vai incluir um construtor padrao (atribui valores default para os atributos da classe)
+
+se colocarmos pelo menos um construtor na classe, este sera usadi, o compilador nao interfere mais
+
+o constrtuor é um metodo sem valor de retorno definido
+
+super - referencia a classe mae
+
+
+Herança - herda uma classe da outra
+
+Override - sobrescrita de metodo
+
+
+if (ternario) - "?" - Se , ":" - Se nao - *INDICADO PARA CASOS EM QUE O CODIGO FICA EM UMA LINHA SÓ, CASO CONTRARIO USAMOS O IF/ELSE
+
+if ternario tem que estar dentro de um parenteses só
+
+
+**a Superclasse nao tem acessom a Subclasse
+
+Polimorfismo - *Muitas Formas, o polimorfismo esta sempre relacionado ao Metodo
+
+*quem executa um metodo é o objeto e nunca a variavel
+
+Polimorfismo é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que têm a mesma identificação (assinatura) mas comportamentos distintos, especializados para cada classe derivada, usando para tanto uma referência a um objeto do tipo da superclasse
+
+O instanceof em java também é conhecida como operador de comparação de tipos, isso porque compara a instância com o tipo.
+
+
+
+Classes Abstratas - são classes que nao podem ser instanciadas (elas só servem como superclasses) são informações necessarias, mais nao sao o Sulficiente, ai ela vira abstrata
+	
+
+Final class - nao pode ser hedada
+
+
+
+
+
+
+
+	
